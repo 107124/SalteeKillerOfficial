@@ -1,0 +1,15 @@
+body {
+  margin: 0px;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 50px;
+  background-color: #191919;
+}
+
+.nav-bar-container img {
+  width: 125px;
+}
