@@ -2,14 +2,37 @@ body {
   margin: 0px;
 }
 
+.navigation {
+  background-color: blue;
+}
+
 .nav-bar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0px 50px;
   background-color: #191919;
+  width: 100%;
 }
 
 .nav-bar-container img {
   width: 125px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.left-links a,
+.right-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: red;
 }

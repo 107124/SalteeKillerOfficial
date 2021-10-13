@@ -1,6 +1,7 @@
 import React from "react";
+import NavBar from "./navigation";
 
-import "./styles/styles.css";
+import "./styles/about.css";
 
 export default class About extends React.Component {
   constructor(props) {
@@ -10,6 +11,11 @@ export default class About extends React.Component {
   }
 
   render() {
-    return <div className="about-page">about</div>;
+    return (
+      <div className="about-page">
+        <NavBar />
+        about
+      </div>
+    );
   }
 }

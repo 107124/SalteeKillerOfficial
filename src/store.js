@@ -1,6 +1,7 @@
 import React from "react";
+import NavBar from "./navigation";
 
-import "./styles/styles.css";
+import "./styles/store.css";
 
 export default class Store extends React.Component {
   constructor(props) {
@@ -10,6 +11,11 @@ export default class Store extends React.Component {
   }
 
   render() {
-    return <div className="store-page">store</div>;
+    return (
+      <div className="store-page">
+        <NavBar />
+        store
+      </div>
+    );
   }
 }
