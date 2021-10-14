@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./navigation";
 
-import "./styles/home.css";
+import "./styles/home.scss";
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -15,6 +15,9 @@ export default class Home extends React.Component {
       <div className="home-page">
         <NavBar />
         <div>home</div>
+        <div className="kent-header">
+          <h1>KENT</h1>
+        </div>
       </div>
     );
   }

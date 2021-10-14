@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+}
+
+.home-page {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  .kent-header h1{
+    font-size: 16em;
+    // background-image: url("https://media2.giphy.com/media/8cgrcawY6PQRYRzeYC/giphy.gif?cid=ecf05e47gd67yyhpov46lppriqxvpqab3fcxqsjiyp37ddbh&rid=giphy.gif&ct=g");
+    background-image: url("https://media0.giphy.com/media/26wdcnG8UP85vOtGw/giphy_s.gif?cid=790b76114b357ee50b922ec1fd7a7f56dce596c0c00d491c&rid=giphy_s.gif&ct=g");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+  }
+}

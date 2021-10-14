@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import VideoPlayer from "react-video-js-player";
 
 import "./styles/videos.css";
 import NavBar from "./navigation";
@@ -55,6 +56,20 @@ export default class Videos extends React.Component {
         videos
         <p>{this.state.data}</p>
         {/* <p>{handleRequest()}</p> */}
+        {/* <VideoPlayer
+                    controls={true}
+                    src="https://cdn.videvo.net/videvo_files/video/free/2018-08/large_watermarked/180825_01_laptop_preview.mp4"
+                    poster="http://www.example.com/path/to/video_poster.jpg"
+                    width="720"
+                    height="420"
+                    // onReady={this.onPlayerReady.bind(this)}
+                    // onPlay={this.onVideoPlay.bind(this)}
+                    // onPause={this.onVideoPause.bind(this)}
+                    // onTimeUpdate={this.onVideoTimeUpdate.bind(this)}
+                    // onSeeking={this.onVideoSeeking.bind(this)}
+                    // onSeeked={this.onVideoSeeked.bind(this)}
+                    // onEnd={this.onVideoEnd.bind(this)}
+                /> */}
       </div>
     );
   }
